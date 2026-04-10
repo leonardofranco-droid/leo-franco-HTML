@@ -1,72 +1,94 @@
-<style>
-        body {
-            background-color: #ffffff; /* branco */
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+/* Fundo geral */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+}
 
-        .container {
-            background-color: #fff;
-            width: 80%;
-            margin: auto;
-            margin-top: 20px;
-            padding: 20px;
-            border-radius: 10px;
-            border: 3px solid #000; /* borda preta */
-            box-shadow: 0 0 15px #555;
-        }
+/* Cabeçalho geral */
+.header {
+  background: #222;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
 
-        h1 {
-            color: #d40000; /* vermelho forte */
-            text-align: center;
-            text-shadow: 1px 1px #000;
-        }
+/* Cabeçalho com caminhão */
+.truck-header {
+  background-image: url("https://i.imgur.com/6GiK7m0.jpeg");
+  background-size: cover;
+  background-position: center;
+}
 
-        h2 {
-            color: #000000; /* preto */
-            border-left: 6px solid #d40000; /* faixa vermelha */
-            padding-left: 10px;
-        }
+/* Caixa de título */
+.title-box {
+  background: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
 
-        li {
-            margin-bottom: 5px;
-        }
+.title {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: bold;
+}
 
-        .sessao {
-            background-color: #f2f2f2; /* cinza claro */
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            border-left: 5px solid #000; /* faixa preta */
-        }
+.subtitle {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
 
-        img {
-            width: 200px;
-            margin: 10px;
-            border-radius: 10px;
-            border: 3px solid #d40000; /* borda vermelha */
-        }
+/* MENU */
+.menu {
+  margin-top: 25px;
+}
 
-        /* ESTILO DO INSTAGRAM */
-        .instagram {
-            text-align: center;
-            margin-top: 30px;
-            padding: 15px;
-            background-color: #f2f2f2;
-            border-radius: 8px;
-            border-left: 5px solid #d40000;
-        }
+.menu .btn {
+  background: red;
+  color: white;
+  padding: 12px 20px;
+  margin: 5px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
 
-        .instagram a {
-            text-decoration: none;
-            font-size: 20px;
-            color: #d40000;
-            font-weight: bold;
-        }
+.menu .btn:hover {
+  background: #ff3333;
+  transform: scale(1.05);
+}
 
-        .instagram a:hover {
-            text-decoration: underline;
-        }
+/* Conteúdo */
+.conteudo {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
 
-    </style>
+/* CARD */
+.card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: red;
+}
+
+/* Links */
+a {
+  color: red;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
